@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} está testando o GitHub Actions 🚀
 on: [push]
 jobs:
   Explorar-GitHub-Actions:
-    runs-on: ubuntu-mais-recente
+    runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 O trabalho foi acionado automaticamente por um evento ${{ github.event_name }}."
       - run: echo "🐧 Este trabalho está sendo executado em um servidor ${{ runner.os }} hospedado pelo GitHub!"
